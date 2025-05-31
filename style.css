@@ -16,6 +16,10 @@ a {
     font-size: 18px;
 }
 
+img {
+    border: solid 4px #1f2937 ;
+}
+
 
 .header {
     display: flex;
@@ -87,4 +91,29 @@ button {
 
 .picture {
     border: solid 5px white;
+}
+
+.body {
+    text-align: center;
+    margin: 40px;
+    font-size: 20px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.features {
+    display: flex;
+
+    margin-top: 75px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    
 }
